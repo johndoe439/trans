@@ -11,7 +11,7 @@
                 <div class="container">
                     <div class="ft-banner-text-content headline pera-content text-center">
                         <h1 class="cd-headline letters scale">
-                            Marble Cargo
+                           Intrans Parcel
                             <span class="cd-words-wrapper">
                                 <b class="is-visible">Global</b>
                                 <b>Secure</b>
@@ -46,7 +46,7 @@
             <div class="container">
                 <div class="ft-section-title-2 headline pera-content text-center">
                     <span class="sub-title">Featured</span>
-                    <h2>Why Choose <span>Marble Cargo</span></h2>
+                    <h2>Why Choose <span> Intrans Parcel</span></h2>
                 </div>
                 <div class="ft-featured-content">
                     <div class="row justify-content-center">
@@ -549,7 +549,7 @@
             <div class="container">
                 <div class="ft-section-title-2 headline pera-content text-center">
                     <span class="sub-title">Our Services</span>
-                    <h2>Marble Cargo Shipping Solutions</h2>
+                    <h2> Intrans Parcel Shipping Solutions</h2>
                 </div>
                 <div class="ft-service-content-2">
                     <div class="ft-service-slider-2">
@@ -658,10 +658,10 @@
                                     data-wow-delay="200ms" data-wow-duration="1500ms">
                                     <span class="sub-title">About Us</span>
                                     <h2>
-                                        Trusted Shipping with <span>Marble Cargo</span>
+                                        Trusted Shipping with <span> Intrans Parcel</span>
                                     </h2>
                                     <p>
-                                        Since 1982, Marble Cargo has delivered reliable shipping solutions worldwide,
+                                        Since 1982,  Intrans Parcel has delivered reliable shipping solutions worldwide,
                                         ensuring your goods arrive safely and on time.
                                     </p>
                                 </div>
@@ -797,7 +797,7 @@
         <section id="ft-portfolio-2" class="ft-portfolio-section-2 position-relative">
             <div class="ft-section-title-2 headline pera-content text-center">
                 <span class="sub-title">Our Projects</span>
-                <h2>Explore Marble Cargo's Recent Work</h2>
+                <h2>Explore  Intrans Parcel's Recent Work</h2>
             </div>
             <div class="ft-portfolio-content-2">
                 <div class="ft-portfolio-slider-2">
@@ -954,10 +954,10 @@
                 <div class="ft-testimonial-top-content-2 d-flex justify-content-between align-items-end flex-wrap">
                     <div class="ft-section-title-2 headline pera-content">
                         <span class="sub-title">Testimonials</span>
-                        <h2>What Our Clients Say About Marble Cargo</h2>
+                        <h2>What Our Clients Say About  Intrans Parcel</h2>
                     </div>
                     <div class="ft-title-text">
-                        Discover how Marble Cargo has transformed shipping for businesses worldwide with reliable and
+                        Discover how  Intrans Parcel has transformed shipping for businesses worldwide with reliable and
                         efficient services.
                     </div>
                 </div>
@@ -976,7 +976,7 @@
                                                 <span>Logistics Manager</span>
                                             </div>
                                             <p>
-                                                Marble Cargo delivered our shipment on time with excellent tracking
+                                                 Intrans Parcel delivered our shipment on time with excellent tracking
                                                 support. Their service is top-notch!
                                             </p>
                                             <div class="ft-testimonial-rate ul-li">
@@ -1003,7 +1003,7 @@
                                             </div>
                                             <p>
                                                 Their ocean freight service was seamless and cost-effective. Highly
-                                                recommend Marble Cargo!
+                                                recommend  Intrans Parcel!
                                             </p>
                                             <div class="ft-testimonial-rate ul-li">
                                                 <ul>
@@ -1028,7 +1028,7 @@
                                                 <span>Operations Lead</span>
                                             </div>
                                             <p>
-                                                Marble Cargo’s air freight option was incredibly fast and reliable for
+                                                 Intrans Parcel’s air freight option was incredibly fast and reliable for
                                                 our urgent shipments.
                                             </p>
                                             <div class="ft-testimonial-rate ul-li">
@@ -1054,7 +1054,7 @@
                                                 <span>Warehouse Supervisor</span>
                                             </div>
                                             <p>
-                                                The secure storage solutions provided by Marble Cargo ensured our goods
+                                                The secure storage solutions provided by  Intrans Parcel ensured our goods
                                                 were safe and accessible.
                                             </p>
                                             <div class="ft-testimonial-rate ul-li">
@@ -1080,7 +1080,7 @@
                                                 <span>Business Owner</span>
                                             </div>
                                             <p>
-                                                Marble Cargo’s transparent pricing made budgeting for our shipments so
+                                                 Intrans Parcel’s transparent pricing made budgeting for our shipments so
                                                 much easier.
                                             </p>
                                             <div class="ft-testimonial-rate ul-li">
@@ -1221,7 +1221,7 @@
                                 <div class="ft-section-title-2 headline pera-content wow fadeInUp"
                                     data-wow-delay="0ms" data-wow-duration="1500ms">
                                     <span class="sub-title">Why Choose Us</span>
-                                    <h2>Why Marble Cargo?</h2>
+                                    <h2>Why  Intrans Parcel?</h2>
                                 </div>
                                 <div class="ft-why-choose-feature-wrapper-2">
                                     <div class="row">

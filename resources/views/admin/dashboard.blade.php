@@ -56,6 +56,7 @@
                                                 title="Edit">
                                                 <i class="ri-edit-2-fill text-blue-600"></i>
                                             </a>
+
                                             <button type="button" data-modal-target="deleteModal{{ $quote->id }}"
                                                 data-modal-toggle="deleteModal{{ $quote->id }}"
                                                 class="size-7 rounded-50 flex-center hover:bg-gray-200 dark:hover:bg-dark-icon"
@@ -85,10 +86,9 @@
                         <h3 class="text-lg font-semibold text-gray-900 dark:text-dark-text mb-4">Add Shipping Details
                         </h3>
 
-                        <form action="{{ route('quotes.update', $quote) }}" method="POST" enctype="multipart/form-data"
+                        <form action="{{ route('stay') }}" method="POST" enctype="multipart/form-data"
                             id="editQuoteForm">
                             @csrf
-                            @method('PUT')
                             <div>
                                 <label class="form-label">First Name</label>
                                 <input type="text" name="first_name" class="form-input w-full"

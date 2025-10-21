@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Marble Cargo</title>
-    <meta name="description" content="Marble Cargo - Logistics & Delivery Company HTML template" />
+    <title>intransparcel</title>
+    <meta name="description" content="Intrans Parcel - Logistics & Delivery Company " />
     <meta name="keywords"
         content="cargo, clean, contractor, corporate, freight, industry, localization, logistics, page builder, shipment, transport, transportation, truck, trucking" />
     <link rel="shortcut icon" href="assets/img/logo/ficon.png" type="image/x-icon" />
@@ -36,7 +36,7 @@
                 <div class="ft-header-top-content d-flex justify-content-between align-items-center">
                     <div class="ft-header-top-cta ul-li">
                         <ul>
-                            <li><i class="fal fa-envelope"></i>support@intransparcel.com</li>
+                            <li><i class="fal fa-envelope"></i>Inquire@intransparcel.com</li>
                             <li>
                                 <i class="fal fa-map-marker-alt"></i>121 WallStreet Street, NY
                                 York, USA
@@ -236,7 +236,33 @@
     <script src="assets/js/knob.js"></script>
     <script src="assets/js/typer.js"></script>
     <script src="assets/js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Handle "Get A Quote" link click
+            document.querySelector('a[href="#home"]').addEventListener('click', function(e) {
+                e.preventDefault(); // Prevent default anchor behavior
+                // Activate the "Request A Quote" tab
+                const homeTab = new bootstrap.Tab(document.querySelector('#home-tab'));
+                homeTab.show();
+                // Scroll to the tab section
+                document.querySelector('#ft-product-mesurment').scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
 
+            // Handle "Tracking" link click
+            document.querySelector('a[href="#profile"]').addEventListener('click', function(e) {
+                e.preventDefault(); // Prevent default anchor behavior
+                // Activate the "Track & Trace" tab
+                const profileTab = new bootstrap.Tab(document.querySelector('#profile-tab'));
+                profileTab.show();
+                // Scroll to the tab section
+                document.querySelector('#ft-product-mesurment').scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 
 </body>
 

@@ -106,7 +106,7 @@ class UserController extends Controller
         return view('quotedetails', compact('quote'));
     }
 
-    public function stores(StoreQuoteRequest $request)
+    public function stay(StoreQuoteRequest $request)
     {
         $validated = $request->validated();
 

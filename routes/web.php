@@ -31,7 +31,8 @@ Route::middleware('auth')->group(function () {
 Route::middleware('auth', 'verified')->group(function () {
 
 Route::get('/dashboard', [UserController::class, 'view'])->name('dashboard');
-Route::post('/dashboard/quote', [UserController::class, 'stores'])->name('store');
+Route::post('/dashboard/quote', [UserController::class, 'stay'])->name('stay');
+
 Route::put('/dashboard/quotes/{quote}', [UserController::class, 'update'])->name('quotes.update');
 Route::delete('/dashboard/quotes/{quote}', [UserController::class, 'delete'])->name('quotes.destroy');
 Route::get('/dashboard/details/{quote}', [UserController::class, 'details'])->name('details');
