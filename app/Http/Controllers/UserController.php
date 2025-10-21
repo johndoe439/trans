@@ -7,7 +7,7 @@ use App\Http\Requests\UpdateQuoteRequest;
 use App\Models\Quote;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Storage;
-
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
@@ -29,11 +29,32 @@ class UserController extends Controller
     }
     public function view()
     {
-        $quotes = Quote::all();
-        return view('admin.dashboard', compact('quotes'), [
-            'shipmentTypes' => ['By Air', 'By Ship', 'By Road'],
-            'incoterms' => ['EXW', 'FCA', 'FOB', 'CIF', 'DAP', 'DDP']
-        ]);
+
+        // Check if user is authenticated
+        if (auth()->check()) {
+            // Safely access the user's role
+            $role = auth()->user()->role ?? null;
+
+            if ($role === 'admin') {
+                // Admins stay logged in and see the dashboard
+                $quotes = Quote::all();
+                return view('admin.dashboard', compact('quotes'), [
+                    'shipmentTypes' => ['By Air', 'By Ship', 'By Road'],
+                    'incoterms' => ['EXW', 'FCA', 'FOB', 'CIF', 'DAP', 'DDP']
+                ]);
+            } elseif ($role === 'user') {
+                // Log out users and redirect to welcome
+                Auth::logout();
+                return redirect()->route('welcome');
+            } else {
+                // Handle unexpected roles (optional: log out and redirect)
+                Auth::logout();
+                return redirect()->route('welcome');
+            }
+        }
+
+        // If not authenticated, redirect to welcome
+        return redirect()->route('welcome');
     }
     public function details(Quote $quote)
     {
