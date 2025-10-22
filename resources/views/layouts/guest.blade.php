@@ -7,7 +7,7 @@
     <meta name="description" content="Intrans Parcel - Logistics & Delivery Company " />
     <meta name="keywords"
         content="cargo, clean, contractor, corporate, freight, industry, localization, logistics, page builder, shipment, transport, transportation, truck, trucking" />
-    <link rel="shortcut icon" href="assets/img/logo/ficon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="/assets/img/bg/f-bg.png" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -263,6 +263,26 @@
             });
         });
     </script>
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = '1a6b50157b2427a2afb954b9ce75ef235ceb0c30';
+        window.smartsupp || (function(d) {
+            var s, c, o = smartsupp = function() {
+                o._.push(arguments)
+            };
+            o._ = [];
+            s = d.getElementsByTagName('script')[0];
+            c = d.createElement('script');
+            c.type = 'text/javascript';
+            c.charset = 'utf-8';
+            c.async = true;
+            c.src = 'https://www.smartsuppchat.com/loader.js?';
+            s.parentNode.insertBefore(c, s);
+        })(document);
+    </script>
+    <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
+
 
 </body>
 

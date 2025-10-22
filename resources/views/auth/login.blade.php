@@ -10,7 +10,7 @@
 </head>
 
 <body class="bg-body-light dark:bg-dark-body">
-    
+
 
     <!-- Start Main Content -->
     <div class="main-content m-4">
@@ -52,7 +52,7 @@
                         <div class="mb-2.5">
                             <label for="email" class="form-label">Email</label>
                             <input id="email" placeholder="debra.holt@example.com" type="email" name="email"
-                                :value="old('email')" required autofocus autocomplete="username"
+                                 required autofocus autocomplete="username"
                                 class="form-input px-4 py-3.5 rounded-lg">
                         </div>
                         <x-input-error :messages="$errors->get('email')" class="mt-2" />
