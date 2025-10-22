@@ -10,7 +10,7 @@
 </head>
 
 <body class="bg-body-light dark:bg-dark-body">
-   
+
 
     <!-- Start Main Content -->
     <div class="main-content m-4">
@@ -60,7 +60,7 @@
                         <!-- Name Field -->
                         <div class="mb-2.5">
                             <label for="name" class="form-label">Name</label>
-                            <input type="text" name="name" value="{{ old('name') }}" required autofocus
+                            <input type="text" name="name"  required autofocus
                                 autocomplete="name" id="name" placeholder="Debra Holt"
                                 class="form-input px-4 py-3.5 rounded-lg @error('name') border-red-500 @enderror">
                             @error('name')
@@ -72,7 +72,7 @@
                         <div class="mt-5">
                             <label for="email" class="form-label">Email</label>
                             <input id="email" placeholder="debra.holt@example.com" type="email" name="email"
-                                value="{{ old('email') }}" required autocomplete="username"
+                                 required autocomplete="username"
                                 class="form-input px-4 py-3.5 rounded-lg @error('email') border-red-500 @enderror">
                             @error('email')
                                 <span class="text-red-500 text-sm mt-1">{{ $message }}</span>
@@ -116,7 +116,7 @@
                         <br>
 
                         <!-- Submit Button -->
-                        <button type="submit" class="btn b-solid btn-primary-solid w-full dk-theme-card-square">
+                        <button  class="btn b-solid btn-primary-solid w-full dk-theme-card-square">
                             Sign Up
                         </button>
                     </form>
