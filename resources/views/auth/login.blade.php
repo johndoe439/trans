@@ -59,15 +59,9 @@
                         <div class="mt-5">
                             <label for="password" class="form-label">Password</label>
                             <div class="relative">
-                                <input type="password" id="password" placeholder="Password" required
+                                <input type="password" name="password" required autocomplete="current-password" id="password" placeholder="Password" required
                                     class="form-input px-4 py-3.5 rounded-lg">
-                                <label for="toggleInputType"
-                                    class="size-8 rounded-md flex-center hover:bg-gray-200 dark:hover:bg-dark-icon foucs:bg-gray-200 dark:foucs:bg-dark-icon position-center !left-auto -right-2.5">
-                                    <input type="password" name="password" required autocomplete="current-password"
-                                        id="toggleInputType" class="inputTypeToggle peer/it" hidden>
-                                    <i
-                                        class="ri-eye-off-line text-gray-500 dark:text-dark-text peer-checked/it:before:content-['\ecb5']"></i>
-                                </label>
+                                
                             </div>
                         </div>
                         <x-input-error :messages="$errors->get('password')" class="mt-2" />
